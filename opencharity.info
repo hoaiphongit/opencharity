@@ -1,0 +1,28 @@
+name = Test Theme
+core = 7.x
+version = 7.0
+project = Compucorp
+
+regions[header]         = Header
+regions[sidebar_first]  = Sidebar First
+regions[content]        = Content
+regions[sidebar_second] = Sidebar Second
+regions[intro]          = Intro
+regions[event]          = Event
+regions[involve]        = Involve
+regions[mission]        = Mission
+regions[members]        = Members
+regions[blog]           = Blog
+regions[help]           = Help
+regions[footer]         = Footer
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+stylesheets[all][] = dist/main.min.css
+
+scripts[] = dist/main.min.js
